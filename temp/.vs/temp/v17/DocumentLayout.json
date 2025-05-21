@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\temp\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|C:\\Users\\Administrator\\source\\repos\\temp\\temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|solutionrelative:temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\temp\\temp\\Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c",
               "RelativeDocumentMoniker": "temp\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\temp\\temp\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c",
               "RelativeToolTip": "temp\\Source.c",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-20T05:25:09.762Z",
+              "WhenOpened": "2025-05-21T05:42:33.766Z",
               "EditorCaption": ""
             }
           ]
