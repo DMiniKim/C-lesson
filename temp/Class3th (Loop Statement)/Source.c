@@ -162,6 +162,22 @@ void main()
 //	}
 #pragma endregion
 
+#pragma region continue 문
+	// 해당 조건문만 실행하지 않고 , 반복문은 이어서
+	// 실행하는 제어문입니다.
+//for (int i = 1; i < 11; i++)
+//{
+//	if (i % 3 != 0)
+//	{
+//		printf("i : %d 는 3의 배수가 아닙니다\n", i);
+//	}
+//	else
+//	{
+//		continue;
+//	}
+//}
+#pragma endregion
+
 
 #pragma endregion
 

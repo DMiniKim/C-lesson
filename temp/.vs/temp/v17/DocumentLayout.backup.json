@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C6B0007-6419-42D3-B90A-46E9A0904520}|Class3th (Loop Statement)\\Class3th (Loop Statement).vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class3th (Loop Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6B0007-6419-42D3-B90A-46E9A0904520}|Class3th (Loop Statement)\\Class3th (Loop Statement).vcxproj|solutionrelative:Class3th (Loop Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F496920-94A6-4523-95EF-A59C56F1C537}|Class4th(Conditional Statement)\\Class4th(Conditional Statement).vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class4th(Conditional Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F496920-94A6-4523-95EF-A59C56F1C537}|Class4th(Conditional Statement)\\Class4th(Conditional Statement).vcxproj|solutionrelative:Class4th(Conditional Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|solutionrelative:temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -20,11 +28,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class3th (Loop Statement)\\Source.c",
+              "RelativeDocumentMoniker": "Class3th (Loop Statement)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class3th (Loop Statement)\\Source.c*",
+              "RelativeToolTip": "Class3th (Loop Statement)\\Source.c*",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAMwK4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-26T06:12:38.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class4th(Conditional Statement)\\Source.c",
+              "RelativeDocumentMoniker": "Class4th(Conditional Statement)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class4th(Conditional Statement)\\Source.c",
+              "RelativeToolTip": "Class4th(Conditional Statement)\\Source.c",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAMwA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-26T06:11:49.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c",
               "RelativeDocumentMoniker": "temp\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c",
               "RelativeToolTip": "temp\\Source.c",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwEEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-21T05:42:33.766Z",
               "EditorCaption": ""
