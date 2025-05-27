@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|solutionrelative:temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916EC362-E5D0-4681-8ABE-37DF1E011A08}|Class5th(Type Corversion)\\Class5th(Type Corversion).vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class5th(Type Corversion)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{916EC362-E5D0-4681-8ABE-37DF1E011A08}|Class5th(Type Corversion)\\Class5th(Type Corversion).vcxproj|solutionrelative:Class5th(Type Corversion)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class5th(Type Corversion)\\Source.c",
+              "RelativeDocumentMoniker": "Class5th(Type Corversion)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class5th(Type Corversion)\\Source.c",
+              "RelativeToolTip": "Class5th(Type Corversion)\\Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-27T06:31:15.676Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +41,9 @@
               "RelativeDocumentMoniker": "temp\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c",
               "RelativeToolTip": "temp\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-21T05:42:33.766Z",
+              "WhenOpened": "2025-05-27T05:27:25.962Z",
               "EditorCaption": ""
             }
           ]
