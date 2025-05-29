@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|solutionrelative:temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{916EC362-E5D0-4681-8ABE-37DF1E011A08}|Class5th(Type Corversion)\\Class5th(Type Corversion).vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class5th(Type Corversion)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{916EC362-E5D0-4681-8ABE-37DF1E011A08}|Class5th(Type Corversion)\\Class5th(Type Corversion).vcxproj|solutionrelative:Class5th(Type Corversion)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D66DBDEA-5EA9-4375-820A-32DE2115B85E}|Class6th (Pointer)\\Class6th (Pointer).vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class6th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D66DBDEA-5EA9-4375-820A-32DE2115B85E}|Class6th (Pointer)\\Class6th (Pointer).vcxproj|solutionrelative:Class6th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class5th(Type Corversion)\\Source.c",
-              "RelativeDocumentMoniker": "Class5th(Type Corversion)\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class5th(Type Corversion)\\Source.c",
-              "RelativeToolTip": "Class5th(Type Corversion)\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class6th (Pointer)\\Source.c",
+              "RelativeDocumentMoniker": "Class6th (Pointer)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class6th (Pointer)\\Source.c",
+              "RelativeToolTip": "Class6th (Pointer)\\Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-27T06:31:15.676Z"
+              "WhenOpened": "2025-05-29T06:11:11.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +41,7 @@
               "RelativeDocumentMoniker": "temp\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c",
               "RelativeToolTip": "temp\\Source.c",
-              "ViewState": "AgIAALUAAAAAAAAAAAAUwMMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwEoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-27T05:27:25.962Z",
               "EditorCaption": ""
