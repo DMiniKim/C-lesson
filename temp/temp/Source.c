@@ -1,89 +1,79 @@
 #include <stdio.h>
-#define ARR_SIZE 5
+
+int Eternal(int a)
+{
+	if (a == 100) return a;
+
+	a++;
+	Eternal(a);
+}
+
+void Stats(int health, const char* name)
+{
+	printf("%s 의 체력 : %d\n", name, health);
+}
+
+int CallByValue(int left, int right)
+{
+	int temp = left;
+	left = right;
+	right = temp;
+	printf("일반적인 함수 내부 변화 상황 : %d , %d\n", left, right);
+	return left,right;
+}
+void CallByReference(int* x, int* y)
+{
+	int temp = 0;
+	temp = *x;
+	*x = *y;
+	*y = temp;
+	printf("포인터 활용한 함수 내부 변화 상황 : %d , %d\n", *x, *y);
+}
+
 
 void main()
 {
-#pragma region 배열
-	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
+#pragma region 함수
+	// 하나의 특별한 목적의 작업을 수행하기 위해
+	// 독립적으로 설계된 코드의 집합이다.
 
-	//	int arr[ARR_SIZE] = { 10,20,30,40 };
-	//	
-	//	//
-	//	int arr_size = sizeof(arr) / sizeof(int);
-	//	
-	//	int temp[ARR_SIZE] = {0};
-	//	
-	//	int* point = temp;
-	//	
-	//	for (int i = 0; i < ARR_SIZE; i++)
-	//	{
-	//		scanf_s("%d", &point[i]);
-	//		//point[i] = (i * 10) + 10;
-	//		printf("temp %d 번째 값 : %d\n", i, point[i]);
-	//	}
-	//	printf("배열의 사이즈는 : %d byte입니다", sizeof(int) * ARR_SIZE);
+	// 함수는 프로그램이 실행 중일 때 함수 호출 위치에서
+	// 해당 함수로 이동시킨 뒤, 작업을 수행하고
+	// 다시 원래 위치로 돌아오는 구조이다.
 
+	// int a = 1;
+	// 
+	// printf("%d", Eternal(a));
 
-	// 배열의 첫 번째 원소는 0 부터 시작합니다.
+#pragma region 매개 변수
+	// 함수의 정의에서 전달받은 인수를 함수 내부로
+	// 전달하기 위해 사용하는 변수입니다.
 
-	//	int list[5] = { 1,2,3,4,5 };
-//
-	//	int* point = list;
-//
-	//	*point = 99;
-//
-	//	for (int i = 0; i < 5; i++)
-	//	{
-	//		*(point+i) = (99-i);
-//
-//
-	//		printf("%d\n", list[i]);
-	//		printf("%p\n\n", &list[i]);
-	//	}
+	// 매개 변수는 함수 내부에서만 연산이 이루어지며,
+	// 여러 개의 매개 변수를 생성할 수 있습니다.
+	// Stats(100, "Slime");
+	// Stats(5000, "Junior Golem");
 
-	// 배열은 원하는 원소에 원하는 값을 저장할 수 있으며
-	// 배열의 크기는 컴파일 되는 시점부터 고정된 메모리 공간을 가진다.
-
-	// float container[] = { 10.f, 12.5f,15.0f,17.5f };
-
-	// 배열의 크기는 생략할 수 있으며 , 초기화 목록에서
-	// 설정한 요소에 따라 배열의 크키가 결정된다.
 #pragma endregion
+#pragma region 인수
+	// 함수가 호출될 때 매개 변수에 실제로 전달되는 값입니다.
 
-#pragma region 문자열
-	// 연속적인 메모리 공간에 저장된 문자 변수의 집합입니다.
+	int x = 10;
+	int y = 20;
 	
-	// 
-	// const char* str = "Hello world";
-	// printf("%s\n", str);
-	// 
-	// 
-	// str = "Lost A\0rk";
-	// printf("%s\n", str);
+	printf("CallByValue 함수 전 : %d , %d \n", x, y);
+	CallByValue(x, y);
+	printf("CallByValue 함수 후 : %d , %d \n", x, y);
 
-	// 문자열의 경우 포인터를 이용하여 문자열 상수를 가리키도록
-	// 할 수 있으며 , 문자열 상수는 데이터 영역에 읽기 전용 공간에
-	// 저장되기 떄문에 문자열의 값을 변경할 수 없습니다.
-	// 
-	// 문자열의 공백도 함께 메모리 공간에 포함하여 크기가 결정되며
-	// 마지막에 문자열의 끝을 알려주는 제어 문자가 추가됩니다.
+	printf("===================================\n");
 
-	// 문자열을 저장하게 되면 맨 마지막에 무효의 문자까지
-	// 메모리 공간에 저장됩니다.
+	printf("CallByReference 함수 전 : %d , %d \n", x, y);
+	CallByReference(&x, &y);
+	printf("CallByReference 함수 후 : %d , %d \n", x, y);
 
-	// char name[] = "Kim Dong Min";
-	//  printf("%s\n", name);
-	//  name[0] = 'S';
-	//  printf("%s\n",name);
-	//  char mded[] = "dawdw";
-	// name = mded; // <- 불가
+	// 인수의 경우 값을 전달하는 인수와 값을 전달받는 매개 변수의
+	// 자료형이 서로 일치해야 합니다.
 #pragma endregion
-
-#pragma region ASCII CODE
-	// 아스키 코드는 미국에서 표준화한 정보교환용
-	// 7비트 부호체계다.
-	// 000(0x00) 부터 127(0x7F) 까지 128개의 부호가 사용된다.
-
 
 #pragma endregion
 

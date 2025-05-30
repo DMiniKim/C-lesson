@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0F8988DA-4BBA-4EF1-B8DF-6009D803E3D1}|temp\\temp.vcxproj|solutionrelative:temp\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D66DBDEA-5EA9-4375-820A-32DE2115B85E}|Class6th (Pointer)\\Class6th (Pointer).vcxproj|C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class6th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D66DBDEA-5EA9-4375-820A-32DE2115B85E}|Class6th (Pointer)\\Class6th (Pointer).vcxproj|solutionrelative:Class6th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class6th (Pointer)\\Source.c",
-              "RelativeDocumentMoniker": "Class6th (Pointer)\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\Class6th (Pointer)\\Source.c",
-              "RelativeToolTip": "Class6th (Pointer)\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-29T06:11:11.328Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,7 +24,7 @@
               "RelativeDocumentMoniker": "temp\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C-lesson\\temp\\temp\\Source.c",
               "RelativeToolTip": "temp\\Source.c",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwEoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAD4v0gAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-27T05:27:25.962Z",
               "EditorCaption": ""
