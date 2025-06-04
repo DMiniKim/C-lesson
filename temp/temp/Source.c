@@ -21,10 +21,10 @@ struct Monster
 	int x;
 	int y;
 };
-typedef struct 노드
+typedef struct
 {
 	int data;
-	struct Node* next;
+	Node* next;
 }Node;
 
 void IsAttack(struct Player pla, struct Monster mon)
@@ -138,7 +138,7 @@ int main()
 	Node* currentNode = ( Node*)malloc(sizeof(Node));
 	currentNode->data = 0;
 	currentNode->next = &node1;
-
+	
 	while (currentNode != NULL)
 	{
 		printf("currentNode의 값은 %d\n\n", currentNode->data);
