@@ -1,177 +1,121 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <time.h>
+#include <Windows.h>
 
-struct Card
-{
-	char grade;
-	int health;
-	double attack;
-
-	// 구조체의 크기는 구조체를 구성하는 멤버 중에서 크기가
-	// 가장 큰 자료형의 배수가 되도록 설정합니다.
-};
-struct Player
-{
-	int x;
-	int y;
-};
-struct Monster
-{
-	int x;
-	int y;
-};
-typedef struct
-{
-	int data;
-	Node* next;
-}Node;
-
-void IsAttack(struct Player pla, struct Monster mon)
-{
-	struct Player* temp1 = &pla;
-	struct Monster* temp2 = &mon;
-	
-	double hypotenuse = 0.0f;
-	// 각 pow 값을 저장할 까?? 컴파일이 빠를 까?
-	hypotenuse = sqrt(pow((temp1->x - temp2->x), 2) + pow((temp1->y - temp2->y), 2) );
-
-	// 3.0 이하면 공격
-	// 3.0 이상 이동
-	if (hypotenuse <= 3.0 )
+void Shuffle(int arr[], int size)
+{	
+	printf("섞었습니다\n");
+	for (int i = 0; i < size; i++)
 	{
-		printf("Attack\n");
+		int seed = rand() % size;
+		int temp = arr[seed];
+		arr[seed] = arr[i];
+		arr[i] = temp;
 	}
-	else
-	{
-		printf("Moving\n");
-	}
-	
+		
 }
+
 
 int main()
 {
-#pragma region 구조체
-	// 여러 개의 변수를 하나의 집합으로 구조화한 다음
-	// 하나의 객체로 생성하는 작업
+#pragma region 의사 난수
+	// rand() : 0~ 32767 사이의 난수의 값을 반환하는 함수입니다.
+	// time(NULL); 1970/01/01 (00:00:00) UTC 이후에 지난 초(second)를
+	//			   반환하는 함수
 
-	//	struct Card card = { 'A',200,12.5 };
-//
-	//	// 구조체의 각 멤버는 구조체 선언에서 나타나는 순서대로 초기화 해야하며
-	//	// 이 순서는 왼쪽에서부터 오른쪽으로 이어집니다.
-//
-	//	printf("card의 등급 : %c\n", card.grade);
-	//	printf("card의 체력 : %d\n", card.health);
-	//	printf("card의 공격력 : %.1lf\n", card.attack);
-//
-//
-	//	card.attack = 10.4f;
-	//	card.grade = 'C';
-	//	card.health = 1000;
-//
-	//	printf("card의 등급 : %c\n", card.grade);
-	//	printf("card의 체력 : %d\n", card.health);
-	//	printf("card의 공격력 : %.1lf\n", card.attack);
+	// srand(seed) : 난수 생성기의 시드를 설정하는 함수입니다.
 
-	// 구조체를 선언하기 전에 구조화체는 메모리 공간이 생성되지 않으며,
-	// 구조체 내부에 있는 데이터를 초기화 할 수 없습니다.
-#pragma endregion
-
-#pragma region 바이트 패딩
-	// 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에
-	// 읽을 수 있도록 컴파일러가 레지스터의 블록에 
-	// 맞추어 바이트를 패딩(단열재 작업하듯 채우는)해주는 
-	// 최적화 작업입니다
-
-	// printf("Card 구조체의 크기 : %u\n", sizeof(struct Card));
-
-	// 구조체 크기의 경우 멤버 변수의 순서에 따라 메모리 크기가
-	// 다르게 설정될 수 있으며 , 구조체 크기를 결정하는 형태는 
-	// 기본 자료형으로만 구성됩니다.
-#pragma endregion
-
-#pragma region 두 점 사이의 거리
-	// printf("sqrt(100) : %lf\n",sqrt(100));
-	// printf("pow(2,3) : %lf\n", pow(2,3));
-
-	// struct Player player;
-	// struct Monster monster;
-	// 
-	// player.x = 1;
-	// player.y = 1;
-	// monster.x = 2;
-	// monster.y = 2;
-	// 
-	// IsAttack(player, monster);
+	//	 srand(time(NULL));
+	//	 int a = 0;
+	//	 while (a == 0)
+	//	 {
+	//	 	printf("%d\n", (rand() % 10) + 1);
+	//	 	Sleep(100);
+	//	 }
 	
 #pragma endregion
 
-#pragma region 자기 참조 구조체
-	// 자기 자신과 같은 타입의 포인터를 멤버로 포함하고
-	// 있는 구조체입니다.
-	Node node1,node2,node3;
-
-	node1.data = 10;
-	node1.next = &node2;
-	node2.data = 20;
-	node2.next = &node3;
-	node3.data = 30;
-	node3.next = NULL;
-
-	printf("node1의 data : %d\n", node1.data);
-	printf("node1의 next 주소 : %p\n", node1.next);
-	printf("node2의 주소 : %p\n\n", &node2);
-	printf("===============================\n");
-	printf("node2의 data : %d\n", node2.data);
-	printf("node2의 next 주소 : %p\n", node2.next);
-	printf("node3의 주소 : %p\n\n", &node3);
-	printf("===============================\n");
-	printf("node3의 data : %d\n", node3.data);
-	printf("node3의 next 주소 : %p\n", node3.next);
+#pragma region Shuffle 함수
+	//	srand(time(NULL));
+	//	
+	//	int a = 0;
+	//	int list[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//	
+	//	int size = sizeof(list)/ sizeof(int);
+	//	
+	//	while (a == 0)
+	//	{
+	//		if (GetAsyncKeyState(VK_RETURN))
+	//		{
+	//			Shuffle(list, size);
+	//			for (int i = 0; i < size; i++)
+	//			{
+	//				printf("list %d 번째 값 : %d\n", i, list[i]);
+	//			}
+	//		}
+	//		Sleep(100);
+	//	}
 	
+#pragma endregion
 
-	printf("===============================\n\n");
-
-	printf("node1.next->next->data는 ? : %d\n\n", node1.next->next->data);
-	printf("node1.next->next->next는 ? : %p\n\n", node1.next->next->next);
-
-	Node* currentNode = ( Node*)malloc(sizeof(Node));
-	currentNode->data = 0;
-	currentNode->next = &node1;
+#pragma region UP & DOWN 게임
 	
-	while (currentNode != NULL)
+	int hp = 5;
+	const char* heart = "♡";
+	srand(time(NULL));
+	int randNum = rand() % 50 +1;
+	
+	int input = 0;
+	while (hp != 0)
 	{
-		printf("currentNode의 값은 %d\n\n", currentNode->data);
-		currentNode = currentNode->next;
+		system("cls");
+		printf("남은 체력 : ");
+		for (int i = 0; i < hp; i++)
+		{
+			printf("%s", heart);
+		}
+		printf("\n");
+		
+		printf("컴퓨터가 생각하는 숫자를 맞추시오 : ");
+		scanf_s("%d", &input);
+		if (input > randNum)
+		{
+			system("cls");
+			printf("그거보다 작은데ㅋㅋ\n");
+			hp--;
+		}
+		else if (input < randNum)
+		{
+			system("cls");
+			printf("그거보다 큰데ㅋㅋㅋ\n");
+			hp--;
+		}
+		else if (input == randNum)
+		{
+			system("cls");
+			printf("\n");
+			printf("V I C T O R Y");
+			printf("\n");
+			break;
+		}
+		Sleep(1000);
 	}
-	free(currentNode);
-	
-#pragma endregion
-	// typedef 공부하고 -> struct에 적용
-#pragma region typedef
-	// typedef은 '자료형의 별칭을 지어준다' 라고 보면 된다. 즉, 재정의하다.
-	// struct도 일종의 자료형이기 때문에 구조체에도 적용이 된다
-	// ex ) struct Abc 
-	// {
-	//   int a;
-	//	 int b;
-	// } Cba ; <----- 이렇게 Abc는 Cba 로도 선언 할 수 있게 재 정의 해준다고 보면된다.
-
-	typedef struct A
+	if (hp == 0)
 	{
-		int x;
-		int y;
-	}B;
-	B a = { 10,20 };
-	B b = { 30,40 };
+		system("cls");
+		printf("\n");
+		printf("D E F E A T\n");
+	}
+	
 
-	struct A c = { 40,20 };
 
-	// 위와 같이 A라고 정의 해놨지만 typedef을 통해 B로 재정의 해놓았기 때문에
-	// 선언이 가능하다
-	// 물론 기존과 같이 선언도 가능하다.
 #pragma endregion
 
+#pragma region 열거형 Enum
+	// 기입
+
+#pragma endregion
 
 
 	return 0;
