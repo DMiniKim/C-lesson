@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (Dynamin Allocati
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (Struct)", "Class11th (Struct)\Class11th (Struct).vcxproj", "{60EF372A-1B9A-4C1C-A826-B37F17A07637}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class12th (pseudo-random number)", "Class12th (pseudo-random number)\Class12th (pseudo-random number).vcxproj", "{EAAB1A7D-F839-4389-A65B-38BA0B40B403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{60EF372A-1B9A-4C1C-A826-B37F17A07637}.Release|x64.Build.0 = Release|x64
 		{60EF372A-1B9A-4C1C-A826-B37F17A07637}.Release|x86.ActiveCfg = Release|Win32
 		{60EF372A-1B9A-4C1C-A826-B37F17A07637}.Release|x86.Build.0 = Release|Win32
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Debug|x64.ActiveCfg = Debug|x64
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Debug|x64.Build.0 = Debug|x64
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Debug|x86.ActiveCfg = Debug|Win32
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Debug|x86.Build.0 = Debug|Win32
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Release|x64.ActiveCfg = Release|x64
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Release|x64.Build.0 = Release|x64
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Release|x86.ActiveCfg = Release|Win32
+		{EAAB1A7D-F839-4389-A65B-38BA0B40B403}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
